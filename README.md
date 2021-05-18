@@ -10,6 +10,10 @@ It has two data lines, one to transmit (TX) and another to receive (RX) which is
 
 # My Design Specification-
 A simple UART_tx  for use in an FPGA as a debug engine.  Requires a 100MHz input clk.
+
+![image](https://user-images.githubusercontent.com/72481400/118713084-2a79ae00-b83f-11eb-9932-5a37e356ba79.png)
+
+
 in my design perity bit is not used. 
 start bit-1bit.
 data bits-8bits.
@@ -48,4 +52,6 @@ default is idle state
 
 
 2)when continue two set of data send
+
+![image](https://user-images.githubusercontent.com/72481400/118712416-63655300-b83e-11eb-85f8-e248384a6457.png)
 
